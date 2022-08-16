@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  padding-bottom: 50px;
+  border-bottom: 0.4px solid white;
+}
+
+header input {
+  padding: 10px;
+  margin: 0 auto;
+
+  background-color: aliceblue;
+  color: black;
+
+  border-radius: 5px;
+}
+
+table {
+  display: inline-block;
+
+  text-align: center;
+}
+
+.box {
+  background-color: lightgray;
+  color: rgb(40, 40, 40);
+
+  border-radius: 5px;
+
+  padding: 1.8rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.box__title {
+  font-size: 1.2rem;
+}
+.box__sub-title {
+  display: flex;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.box__sub-title span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.box__sub-title span,
+img::after {
+  content: '';
+  padding: 10px 8px;
+  border-bottom: 0.4px solid grey;
+}
